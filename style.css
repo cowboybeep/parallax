@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    font: 16px "lato", sans-serif;
+    color: gray;
+    height: 100%;
+}
+
+.conteudo {
+    color: gray;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+/* EFEITO PARALLAX */
+
+.caixa1, .caixa2, .caixa3{
+    position: relative;
+    height: 100%;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(img/space-2334655_1920.jpg);
+}
+
+.caixa2 {
+    background-image: url(img/spacecraft-6103319_1920.png);
+    width: 100%;
+}
+
+.caixa3 {
+    background-image: url(img/spaceship-5848274_1920.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 42%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+    color: white;
+    background-color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+span.titulo:hover{
+    opacity: 0.2;
+    color: white;
+}
